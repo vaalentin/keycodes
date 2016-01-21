@@ -12,7 +12,7 @@ $ npm install --save @vaalentin/keycodes
 
 The whole enum can be imported at once:
 
-```
+```js
 import * as Keys from '@vaalentin/keycodes';
 
 document.addEventListener('keydown', e => {
