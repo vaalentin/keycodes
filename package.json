@@ -1,0 +1,28 @@
+{
+  "name": "@vaalentin/keycodes",
+  "version": "1.0.0",
+  "description": "Javascript keycodes as an enum",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel ./src/index.js --out-file dist/index.js --presets=es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaalentin/keycodes.git"
+  },
+  "keywords": [
+    "es6",
+    "boilerplate"
+  ],
+  "author": "vaalentin <vaalentin@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaalentin/keycodes/issues"
+  },
+  "homepage": "https://github.com/vaalentin/keycodes#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
