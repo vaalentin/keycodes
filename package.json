@@ -1,6 +1,6 @@
 {
   "name": "@vaalentin/keycodes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript keycodes as an enum",
   "main": "dist/index.js",
   "scripts": {
